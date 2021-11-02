@@ -10,9 +10,6 @@
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
 - [Testing](#testing)
-- [API](#requirements)
-- [Acknowledgements](#acknowledgements)
-- 
 
 ## Introduction
 
@@ -76,7 +73,7 @@ METHOD
 POST
 ```
 
-# Lead with judicial Record
+#### Lead with judicial Record
 
 ```json
 {
@@ -88,7 +85,7 @@ POST
     "email":"javier@email.com"
 }
 ```
-# Lead's information does not match
+#### Lead's information does not match
 
 ```json
 {
@@ -101,7 +98,7 @@ POST
 }
 ```
 
-# success exmaple
+#### success exmaple
 
 score is random so may be you shou try many times
 
