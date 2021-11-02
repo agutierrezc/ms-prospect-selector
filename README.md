@@ -67,7 +67,44 @@ Configure the port by changing `services.api.ports` in __docker-compose.yml__. P
 
 ## Testing
 
-this is an example of dbody request: 
+URL
+```
+http://localhost:8002/prospect-selector/api/v1/prospect/
+```
+METHOD
+```
+POST
+```
+
+# Lead with judicial Record
+
+```json
+{
+    "leadId":"322a2686-c58d-43c8-b1ac-d05b3f797c20",
+    "documentId": "1012023314",
+    "name":"Javier",
+    "lastName":"Perez",
+    "birthdate": "1985-03-27",
+    "email":"javier@email.com"
+}
+```
+# Lead's information does not match
+
+```json
+{
+    "leadId":"322a2686-c58d-43c8-b1ac-d05b3f797c20",
+    "documentId": "1012023314",
+    "name":"Javier",
+    "lastName":"Perez",
+    "birthdate": "1985-03-27",
+    "email":"javier@email.com"
+}
+```
+
+# success exmaple
+
+score is random so may be you shou try many times
+
 ```json
 {
     "leadId":"322a2686-c58d-43c8-b1ac-d05b3f797c20",
@@ -78,11 +115,5 @@ this is an example of dbody request:
     "email":"andres@email.com"
 }
 ```
-URL
-```
-http://localhost:8002/prospect-selector/api/v1/prospect/
-```
-METHOD
-```
-POST
-```
+
+
