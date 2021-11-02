@@ -1,0 +1,17 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.6'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation project(':ms-prospect-selector-domain')
+	
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.5.6'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator:2.5.6'
+}

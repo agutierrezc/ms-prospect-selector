@@ -1,0 +1,3 @@
+rootProject.name = 'ms-prospect-selector'
+include 'ms-prospect-selector-infra'
+include 'ms-prospect-selector-domain'
